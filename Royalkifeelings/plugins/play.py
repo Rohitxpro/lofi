@@ -154,7 +154,7 @@ async def play(c: Royalboyamit, m: Message):
     else:
         if len(m.command) < 2:
          await m.reply_photo(
-                    photo=f"https://graph.org/file/b54b89d9d4f7efe4fbd75.jpg", 
+                    photo=f"https://graph.org/file/93dad436226aabcb7d3dc.jpg", 
                     caption=f"**ᴜsᴀɢᴇ: /play ɢɪᴠᴇ ᴀ ᴛɪᴛʟᴇ sᴏɴɢ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ**"),
         
         else:
