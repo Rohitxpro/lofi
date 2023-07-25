@@ -11,4 +11,3 @@ async def ping(Client, message):
     end = datetime.now()
     mp = (end - start).microseconds / 1000
     await loda.edit_text(f"**🤖 Poɴɢ\n»** `{mp} ms`")
-
