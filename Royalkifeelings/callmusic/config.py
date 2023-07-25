@@ -14,11 +14,11 @@ API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6256455516").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5459060847").split()))
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "1200"))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5977523092").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5977523092").split()))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "12000"))
 PMPERMIT = getenv("PMPERMIT", "ENABLE")
 BOT_NAME = getenv("BOT_NAME","Kaal")
 YOUTUBE_IMG_URL = getenv(
-    "YOUTUBE_IMG_URL", "https://te.legra.ph/file/bc5556476395a0c8e109b.jpg"
+    "YOUTUBE_IMG_URL", "https://graph.org/file/1c68560c186299b24ff8d.jpg"
 )
