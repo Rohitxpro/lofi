@@ -144,8 +144,7 @@ async def play(c: Royalboyamit, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=playimg,
-                    caption=f"**✰ ωнιτє ∂єνιℓ мυѕιϲ 😄 ℘ɭʌɤɪɴʛ 📀 
-\nƦɛqʉʂƮɜɖ Ɓɤ :{requester}**",
+                    caption=f"**✰ ωнιτє ∂єνιℓ мυѕιϲ 😄 ℘ɭʌɤɪɴʛ 📀 \nƦɛqʉʂƮɜɖ Ɓɤ :{requester}**",
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
              except Exception as e:
