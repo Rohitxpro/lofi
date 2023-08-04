@@ -126,7 +126,7 @@ async def play(c: Royalboyamit, m: Message):
                 await pokemon.delete()
                 await m.reply_photo(
                     photo=playimg,
-                    caption=f"**✰ ϔƭ Ɱϋƨɪƈ Ρɭʌϔɪɲʛ ₦ơɯ ❤️ Ʌɗɗəɗ Søŋʛ 💫\n**ƦɛqʉʂƮɜɖ Ɓɤ :{m.from_user.mention()}",
+                    caption=f"**✰ ωнιτє ∂єνιℓ мυѕιϲ ❤️ Ʌɗɗəɗ Søŋʛ 💫\n**ƦɛqʉʂƮɜɖ Ɓɤ :{m.from_user.mention()}",
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
             else:
@@ -144,7 +144,8 @@ async def play(c: Royalboyamit, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=playimg,
-                    caption=f"**✰ ϔƭ Ɱϋƨɪƈ Ρɭʌϔɪɲʛ ₦ø̛ɯ 😄 ℘ɭʌɤɪɴʛ 📀 Ʌʈ🤟\nƦɛqʉʂƮɜɖ Ɓɤ :{requester}**",
+                    caption=f"**✰ ωнιτє ∂єνιℓ мυѕιϲ 😄 ℘ɭʌɤɪɴʛ 📀 
+\nƦɛqʉʂƮɜɖ Ɓɤ :{requester}**",
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
              except Exception as e:
@@ -192,7 +193,7 @@ async def play(c: Royalboyamit, m: Message):
                         )
                         await m.reply_photo(
                             photo=playimg,
-                            caption=f"**✰ ϔƭ Ɱϋƨɪƈ Ρɭʌϔɪɲʛ ₦ø̛ɯ ❤️ Ʌɗɗəɗ Søŋʛ 💫🤟** :{requester}",
+                            caption=f"**✰ ωнιτє ∂єνιℓ мυѕιϲ Ρɭʌϔɪɲʛ ₦ø̛ɯ ❤️ Ʌɗɗəɗ Søŋʛ ϐγ 💫🤟** :{requester}",
                             reply_markup=InlineKeyboardMarkup(keyboard),
                         )
                     else:
