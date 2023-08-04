@@ -156,7 +156,6 @@ async def play(c: Royalboyamit, m: Message):
          await m.reply_photo(
                     photo=f"https://graph.org/file/93dad436226aabcb7d3dc.jpg", 
                     caption=f"**ᑌʂ𝚊𝚐𝚎: /play [ʍᴜᴤɪᴄ ɴᴀᴍᴇ ᴏʀ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ ᴏʀ ʀᴇᴘʟᴀʏ ᴛᴏ ᴀᴜᴅɪᴏ]
-
 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ωнιτє ∂єνιℓ ʙᴏᴛ'ᴤ ᴤᴇʀᴠᴇᴇ ᴘʟᴀʏʟɪᴤᴛ.**"),
         
         else:
